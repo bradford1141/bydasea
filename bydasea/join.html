@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_bydasea.css">
+    <title>bydasea</title>
+</head>
+<body>
+    <header class="bds_header">
+        <div class="upperflex">
+            <img src="https://placehold.jp/100x100.png" alt="bydasea logo" width="100" height="100">
+            <h1>By Da Sea Jewerly</h1>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#">Menu</a></li>
+                <li><a href="bydasea.html">Home</a></li>
+                <li><a href="inventory.html">Shop</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <main class="join_page">
+        <form method="get" action="thankyou.html">
+            <label for="firstname" class="required">First name:</label>
+            <input type="text" name="firstname" id="firstname" autofocus required>
+
+            <label for="lastname" class="required">Last name:</label>
+            <input type="text" name="lastname" id="lastname" required>
+
+            <label for="major" class="required">Email:</label>
+            <input type="email" name="major" id="major" placeholder="example@email.com" required>
+            
+            <label for="phone" class="required">Phone Number (555-555-5555):</label>
+            <input type="tel" name="phone" id="phone" placeholder="555-555-5555" pattern="\d{3}-\d{3}-\d{4}" required>
+
+            <input type="submit" value="Sign Up">
+        </form>
+    </main>
+    <footer class="bds_footer">
+        <section class="address">
+            <img src="https://placehold.jp/100x100.png" alt="bydasea logo" width="100" height="100">
+            <h1>By Da Sea Jewerly</h1>
+        </section>
+        <section class="info">
+            <h2>bydasea@gmail.com</h2>
+            <h2>(208)800-9181</h2>
+            <h2>LOCATION - Laie, Hawaii </h2>
+        </section>
+        <section class="foot">
+            &copy;<span id="getyear"></span> By Da Sea | Tyson Bradford | Last modified: <span id="lastmod"></span>
+        </section>
+    </footer>
+    <script src="js/footer.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>
